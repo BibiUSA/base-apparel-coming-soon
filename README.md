@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://bibiusa.github.io/base-apparel-coming-soon/)
+- Live Site URL: [Live Site](https://bibiusa.github.io/base-apparel-coming-soon/)
 
 ## My process
 
