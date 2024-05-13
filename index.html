@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<section class="document">
+
+  <img src="./logo.svg" alt="logo">
+
+  <h1><span class="we">WE'RE</span> <br>COMING <br>SOON</h1>
+
+  <p id="hello">Hello fellow shoppers! We're currently building our new fashion store. 
+  Add your email below to stay up-to-date with announcements and our launch deals.</p>
+
+  <form class="email-collection" onSubmit="return false" >
+    <div class="twoinputs">
+    <input type="email"  class= "email" placeholder="Email Address">
+    <img  class="wrong-email hidden" src="./icon-error.svg">
+    <input class ="submit" type="button" value=">">
+  </div>
+  
+      <p class="warning hidden">Please provide a valid email address</p>
+      <p class="success hidden">Thank you for subscribing to our newsletter!</p>
+  </form>
+
+  <img src="./icon-share.svg" alt="share button" class="share">
+  <div class="share-box hidden">
+    <p>SHARE</p>
+    <a href="https://www.facebook.com/"><img class ="social facebook" src="./icon-facebook.svg" alt="facebook icon"></a>
+    <a href="https://twitter.com/"><img class ="social twitter" src="./icon-twitter.svg" alt="twitter icon"></a>
+    <a href="https://www.pinterest.com/"><img class ="social pinterest" src="./icon-pinterest.svg" alt="pinterest icon"></a>
+  </div>
+</section>
+  
+
+  <img src="./hero-desktop.jpg" alt="pic of a model" class="responsive">
+
+  <script src="./index.js"></script>
+</body>
+</html>

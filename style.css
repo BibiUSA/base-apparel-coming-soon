@@ -1,0 +1,136 @@
+
+body{
+    display:inline-flex;
+}
+.document{
+    padding: 5% 35% 15% 15%;
+    display: 60%;
+    background-image: url("./bg-pattern-desktop.svg");
+    background-size: contain;
+    overflow: hidden;
+    position: absolute;
+    right:20%;
+    left:0%
+
+}
+
+.document h1{
+    font-size: 6vw;
+    padding-top: 20%;
+    position: relative;
+    
+}
+.document h1 span{
+    color:rgb(202, 132, 142);
+}
+
+#hello{
+    color:rgb(202, 132, 142);
+    padding-bottom: 6%;
+}
+
+.email{
+    width:50vw;
+    padding:3%;
+    border-radius:20px;
+    border-color: rgba(235, 152, 164, 0.776);
+}
+.twoinputs {
+    display: inline-flex;
+    width: 120%;
+}
+.submit{
+    width: 15vw;
+    min-width: 40px;
+    position: relative;
+    right: 25%;
+    border-radius: 20%;
+    border: none;
+    background-color:rgb(235, 152, 165) ;
+    color:white;
+
+}
+.submit:hover{
+    width: 15vw;
+    position: relative;
+    right: 25%;
+    border-radius: 20%;
+    border: none;
+    background-color:rgb(235, 152, 165) ;
+    color:white;
+    box-shadow: 2px 2px 2px 2px rgb(149, 139, 139);
+    cursor: pointer;
+}
+
+.success{
+    color:green;
+}
+
+.responsive{
+height: 100vh;
+width: 40%;
+position:fixed;
+right:0px;
+top: 0px;
+
+
+}
+.wrong-email{
+    position: relative;
+    right: 25%;
+    height:70%;
+}
+
+.warning{
+    color:red;
+}
+
+
+/* sharing buttons */
+
+.share{
+    position: relative;
+    bottom: -10vh;
+}
+.share:hover{
+    position: relative;
+    bottom: -10vh;
+    cursor:pointer;
+}
+
+.share-box{
+    width:60%;
+    height:5vw;
+    background-color: rgb(142, 135, 135);
+    display: inline-flex;
+    position: relative;
+    bottom: -5vh;
+    justify-content:space-around;
+    padding: 2% 5%;
+    border-radius: 5%;
+    max-height: 30px;
+    
+}
+.social{
+    height:3vw;
+    position: relative;
+   padding-right:2px;
+    max-height: 25px;
+    top:15%;
+}
+
+.facebook:hover, .pinterest:hover, .twitter:hover{
+cursor: pointer;
+box-shadow: 1px 2px 2px rgb(240, 233, 233);
+}
+.share-box p{
+    font-size: 0.8rem;
+    padding-right: 8%;
+    position: relative;
+    max-height: 25px;
+    
+    
+}
+.hidden{
+    display: none;
+}
